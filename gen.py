@@ -23,10 +23,11 @@ def get_mp3_duration(file_path):
         audio = MP3(file_path)
         total_seconds = audio.info.length
         
+        hours = int(total_seconds // 3600)
         minutes = int(total_seconds // 60)
         seconds = int(total_seconds % 60)
         
-        return f"{minutes:02d}:{seconds:02d}"
+        return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
         
     except HeaderNotFoundError:
         print(f"Error: '{file_path}' is not a valid MP3 file or has a corrupted header.")
