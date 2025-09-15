@@ -6,7 +6,5 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: Run Feed Generator
-        uses: planetoftheweb/podcast-feed-generator@main
       - name: Podcast Generator
         uses: planetoftheweb/podcast-generator@v1.0
