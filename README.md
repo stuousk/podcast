@@ -36,7 +36,7 @@ episodes:
     pub_date: "2025-09-15 22:07:39"
 ```
 
-원래 이런 식인데, gen.py에서 매 밑 3줄은 자동으로 입력하도록 변경했다. 
+원래 이런 식인데, gen.py에서 duration, audio_size는 자동으로 입력하도록 변경했다. 
 
 그래서 
 
@@ -52,6 +52,7 @@ episodes:
   - title: "Attention is all you need"
     description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
     audio_file: "audio/001.mp3"
+    pub_date: "2025-09-15 22:07:39"
 ```
 
 이렇게만 입력하면 된다.
@@ -72,10 +73,12 @@ episodes:
   - title: "2번째 에피소드"
     description: "2번째 에피소드"
     audio_file: "audio/002.mp3"
+    pub_date: "2025-09-15 22:07:39"
 
   - title: "1번째 에피소드"
     description: "1번째 에피소드"
     audio_file: "audio/001.mp3"
+    pub_date: "2025-09-15 22:07:39"
 ```
 
 이렇게 podcast.yaml 파일을 수정한 다음,   

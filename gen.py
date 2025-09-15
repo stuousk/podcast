@@ -90,7 +90,10 @@ def generate_podcast_feed(yaml_file_path, xml_file_path):
 
         # 발행 날짜 형식 변환. 그냥 현재 시각을 사용한다.
         # pub_date_obj = datetime.strptime(episode['pub_date'], '%Y-%m-%dT%H:%M:%S%z')
-        ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
+        #ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
+
+        pub_date_obj = datetime.strptime(episode['pub_date'], '%Y-%m-%d %H:%M:%S %z')
+        ET.SubElement(item, 'pubDate').text = pub_date_obj.strftime('%a, %d %b %Y %H:%M:%S %z')
         
         # ITunes 에피소드 정보
         #ET.SubElement(item, 'itunes:duration').text = episode['duration']
