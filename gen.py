@@ -82,7 +82,7 @@ def generate_podcast_feed(yaml_file_path, xml_file_path):
         #enclosure.set('length', str(episode['audio_size']))
 
         current_audio_file = 'docs/' + episode['audio_file']
-        print("audio_file = ", current_audio_file)
+        #print("audio_file = ", current_audio_file)
 
         enclosure.set('length', str(os.path.getsize(current_audio_file)))
         
