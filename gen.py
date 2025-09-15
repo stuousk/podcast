@@ -92,7 +92,8 @@ def generate_podcast_feed(yaml_file_path, xml_file_path):
         # pub_date_obj = datetime.strptime(episode['pub_date'], '%Y-%m-%dT%H:%M:%S%z')
         #ET.SubElement(item, 'pubDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S %z')
 
-        pub_date_obj = datetime.strptime(episode['pub_date'], '%Y-%m-%d %H:%M:%S %z')
+        pub_date_str = episode['pub_date'] + ' +0900'
+        pub_date_obj = datetime.strptime(pub_date_str, '%Y-%m-%d %H:%M:%S %z')
         ET.SubElement(item, 'pubDate').text = pub_date_obj.strftime('%a, %d %b %Y %H:%M:%S %z')
         
         # ITunes 에피소드 정보

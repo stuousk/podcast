@@ -81,6 +81,8 @@ episodes:
     pub_date: "2025-09-15 22:07:39"
 ```
 
+시간은 vscode에서 'Insert Date String' 플러그인을 설치한 다음, ctrl + shift + I 키를 눌러 입력했다.
+
 이렇게 podcast.yaml 파일을 수정한 다음,   
 feed.xml 파일을 만들기 위해,
 
