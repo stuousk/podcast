@@ -6,28 +6,29 @@ channel_author: "홍길동"
 channel_image: "https://your-podcast-website.com/images/cover.png"
 
 episodes:
-  - title: "Attention is all you need"
-    description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
-    audio_file: "audio/001.mp3"
 
-  - title: "공간01-01"
-    description: "지도_뒤에_숨겨진_세상__공간_정보의_모든_것"
-    audio_file: "audio/002.mp3"
+  - title: "국토 지능화를 위한 GeoAI 발전 방향"
+    description: "국토 지능화를 위한 GeoAI 발전 방향"
+    audio_file: "audio/006.mp3"
+  
+  - title: "공간03"
+    description: "공간03"
+    audio_file: "audio/geo-03.mp3"
+  
+  - title: "공간02"
+    description: "공간02"
+    audio_file: "audio/geo-02.mp3"
 
   - title: "공간01-02"
     description: "공간01-02"
     audio_file: "audio/geo-01-02.mp3"
 
-  - title: "공간02"
-    description: "공간02"
-    audio_file: "audio/geo-02.mp3"
-
-  - title: "공간03"
-    description: "공간03"
-    audio_file: "audio/geo-03.mp3"
-
-  - title: "국토 지능화를 위한 GeoAI 발전 방향"
-    description: "국토 지능화를 위한 GeoAI 발전 방향"
-    audio_file: "audio/006.mp3"
+  - title: "공간01-01"
+    description: "지도_뒤에_숨겨진_세상__공간_정보의_모든_것"
+    audio_file: "audio/002.mp3"
+  
+  - title: "Attention is all you need"
+    description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
+    audio_file: "audio/001.mp3"
 
     

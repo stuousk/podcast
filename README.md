@@ -56,8 +56,30 @@ episodes:
 
 이렇게만 입력하면 된다.
 
-새로운 내용을 입력할 때마다 `- title: ~ audio_file`까지 추가한 다음, 
+새로운 내용을 입력할 때마다 `- title: ~ audio_file`까지 추가한다. 
 
+순서가 중요한데, 새로운 파일이 맨 위에 나오도록 해야 한다. 
+
+```yaml
+# podcast.yaml
+channel_title: "테스트 팟캐스트"
+channel_link: "https://your-podcast-website.com"
+channel_description: "이것은 예시 팟캐스트입니다."
+channel_author: "홍길동"
+channel_image: "https://your-podcast-website.com/images/cover.png"
+
+episodes:
+  - title: "2번째 에피소드"
+    description: "2번째 에피소드"
+    audio_file: "audio/002.mp3"
+
+  - title: "1번째 에피소드"
+    description: "1번째 에피소드"
+    audio_file: "audio/001.mp3"
+```
+
+이렇게 podcast.yaml 파일을 수정한 다음,   
+feed.xml 파일을 만들기 위해,
 
 ```ps
 python gen.py
