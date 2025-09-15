@@ -1,0 +1,17 @@
+title: podcast test
+subtitle: subtitle
+author: stuo
+description: Podcast Description
+link: GitHub Pages URL
+image: 
+language: ko-kr
+category: <Postcast Category e.g. Technology https://podcasters.apple.com/support/1691-apple-podcasts-categories>
+format: audio/mpeg
+item:
+  - title: Attention Is All You Need: 트랜스포머와_현대_AI_언어_모델의_탄생_비화
+    description: 트랜스포머와_현대_AI_언어_모델의_탄생_비화
+    published: 2025-09-15 20:49:07
+    file: /audio/001.mp3>
+    duration: 00:17:59
+    length: 15,326
+  
