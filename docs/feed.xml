@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>테스트 팟캐스트</title>
+    <link>https://your-podcast-website.com</link>
+    <description>이것은 예시 팟캐스트입니다.</description>
+    <itunes:author>홍길동</itunes:author>
+    <itunes:image href="https://your-podcast-website.com/images/cover.png"/>
+    <item>
+      <title>Attention is all you need</title>
+      <description>트랜스포머와 현대 AI 언어 모델의 탄생 비화</description>
+      <guid>audio/001.mp3</guid>
+      <enclosure url="https://stuousk.github.io/podcast/audio/001.mp3" length="15326618" type="audio/mpeg"/>
+      <pubDate>Mon, 15 Sep 2025 22:21:09 </pubDate>
+      <itunes:duration>17:59</itunes:duration>
+    </item>
+  </channel>
+</rss>
