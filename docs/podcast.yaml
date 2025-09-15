@@ -1,6 +1,3 @@
-- name: Podcast Generator
-  uses: planetoftheweb/podcast-generator@v1.0
-  
 title: podcast test
 subtitle: subtitle
 author: stuo
