@@ -9,6 +9,3 @@ episodes:
   - title: "Attention is all you need"
     description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
     audio_file: "audio/001.mp3"
-    audio_size: 15326618
-    duration: "17:59"
-    pub_date: "2025-09-15 22:07:39"
