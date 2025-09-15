@@ -20,7 +20,7 @@ pip install mutagen
 podcast.yaml 파일을 수정한다. 
 
 ```yaml
-# podcast.yml
+# podcast.yaml
 channel_title: "테스트 팟캐스트"
 channel_link: "https://your-podcast-website.com"
 channel_description: "이것은 예시 팟캐스트입니다."
@@ -41,7 +41,7 @@ episodes:
 그래서 
 
 ```yaml
-# podcast.yml
+# podcast.yaml
 channel_title: "테스트 팟캐스트"
 channel_link: "https://your-podcast-website.com"
 channel_description: "이것은 예시 팟캐스트입니다."
