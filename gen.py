@@ -68,14 +68,15 @@ def generate_podcast_feed(yaml_file_path, xml_file_path):
 
     # 에피소드 목록 추가
     for episode in data.get('episodes', []):
+        url = "https://stuousk.github.io/podcast/" + episode['audio_file']
+
         item = ET.SubElement(channel, 'item')
         ET.SubElement(item, 'title').text = episode['title']
         ET.SubElement(item, 'description').text = episode['description']
-        ET.SubElement(item, 'guid').text = episode['audio_file']
+        ET.SubElement(item, 'guid').text = url
         
         # 파일 정보 (enclosure)
-        enclosure = ET.SubElement(item, 'enclosure')
-        url = "https://stuousk.github.io/podcast/" + episode['audio_file']
+        enclosure = ET.SubElement(item, 'enclosure')        
         enclosure.set('url', url)
         #enclosure.set('length', str(episode['audio_size']))
 
