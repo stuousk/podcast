@@ -9,3 +9,9 @@ episodes:
   - title: "Attention is all you need"
     description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
     audio_file: "audio/001.mp3"
+
+  - title: "공간01-01"
+    description: "지도_뒤에_숨겨진_세상__공간_정보의_모든_것"
+    audio_file: "audio/002.mp3"
+
+    
