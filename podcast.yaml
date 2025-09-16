@@ -8,7 +8,7 @@ channel_image: "https://your-podcast-website.com/images/cover.png"
 episodes:
   - title: "딥러닝_텐서플로_교과서-04"
     description: "딥러닝 핵심 기초-퍼셉트론부터 최신 알고리즘까지, AI의 모든 것"
-    audio_file: "audio/008.mp3"
+    audio_file: "audio/009.mp3"
     pub_date: "2025-09-16 21:17:00"
 
   - title: "딥러닝_텐서플로_교과서-03"
