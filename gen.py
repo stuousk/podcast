@@ -105,10 +105,13 @@ def generate_podcast_feed(yaml_file_path, xml_file_path):
     xml_string = ET.tostring(rss, encoding='utf-8')
     pretty_xml = minidom.parseString(xml_string).toprettyxml(indent="  ")
 
-    with open(xml_file_path, 'w', encoding='utf-8') as file:
-        file.write(pretty_xml)
+    tree = ET.ElementTree(rss)
+
+    with open(xml_file_path, 'wb') as file:
+        #file.write(pretty_xml)
+        tree.write(file, encoding='utf-8', xml_declaration=True)  # 이렇게 해야 utf-8을 명시하더라.        
         
-    print(f"Success: Podcast feed generated at '{xml_file_path}'")
+    print(f"성공: 팟캐스트 feed용 파일 생성 - '{xml_file_path}'")
 
 if __name__ == "__main__":
     # 스크립트 실행

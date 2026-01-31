@@ -26,32 +26,22 @@ episodes:
     audio_file: "audio/006.mp3"
     pub_date: "2025-09-16 00:04:52"
   
-  - title: "공간03"
-    description: "공간03"
-    audio_file: "audio/geo-03.mp3"
-    pub_date: "2025-09-16 00:04:52"
-  
-  - title: "공간02"
-    description: "공간02"
-    audio_file: "audio/geo-02.mp3"
-    pub_date: "2025-09-16 00:04:52"
-
-  - title: "공간01-02"
-    description: "공간01-02"
-    audio_file: "audio/geo-01-02.mp3"
-    pub_date: "2025-09-16 00:04:52"
-
-  - title: "공간01-01"
-    description: "지도_뒤에_숨겨진_세상__공간_정보의_모든_것"
-    audio_file: "audio/002.mp3"
-    pub_date: "2025-09-16 00:04:52"
-  
   - title: "Attention is all you need"
     description: "트랜스포머와 현대 AI 언어 모델의 탄생 비화"
     audio_file: "audio/001.mp3"
     pub_date: "2025-09-16 00:04:52"
-
   
-    
+  - title: "Creative Commons user guide"
+    description: "크리에이티브_커먼즈로_나만의_저작권_규칙_만들기"
+    audio_file: "audio/크리에이티브_커먼즈로_나만의_저작권_규칙_만들기.mp3"
+    pub_date: "2026-02-01 00:04:52"
 
-    
+  - title: "Basics of Compiler Design"
+    description: "컴파일러는_어떻게_코드를_기계어로_번역할까"
+    audio_file: "audio/컴파일러는_어떻게_코드를_기계어로_번역할까.mp3"
+    pub_date: "2026-02-01 00:04:52"
+
+  - title: "modern cpp tutorial"
+    description: "스마트_포인터와_이동_의미론이_바꾼_C++_패러다임"
+    audio_file: "audio/스마트_포인터와_이동_의미론이_바꾼_C++_패러다임.mp3"
+    pub_date: "2026-02-01 00:04:52"
