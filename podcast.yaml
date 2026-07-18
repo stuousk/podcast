@@ -5,7 +5,38 @@ channel_description: "이것은 예시 팟캐스트입니다."
 channel_author: "홍길동"
 channel_image: "https://your-podcast-website.com/images/cover.png"
 
-episodes:
+episodes: 
+
+  - title: "딥러닝_텐서플로_교과서-10"
+    description: "원핫인코딩부터 BERT까지 임베딩의 진화"
+    audio_file: "audio/10. 원핫인코딩부터_BERT까지_임베딩의_진화.mp3"
+    pub_date: "2026-07-18 13:27:00"
+
+  - title: "딥러닝_텐서플로_교과서-09"
+    description: "인간의 언어를 숫자로 요리하는 전처리"
+    audio_file: "audio/09. 인간의_언어를_숫자로_요리하는_전처리.mp3"
+    pub_date: "2026-07-18 13:26:00"
+
+  - title: "딥러닝_텐서플로_교과서-08"
+    description: "뇌 절반을 마비시켜야 AI가 천재가 된다"
+    audio_file: "audio/08. 뇌_절반을_마비시켜야_AI가_천재가_된다.mp3"
+    pub_date: "2026-07-18 13:25:00"
+
+  - title: "딥러닝_텐서플로_교과서-07"
+    description: "시간 속 데이터의 비밀  ARIMA부터 RNN, LSTM, GRU까지, 시계열 데이터 분석의 모든 것"
+    audio_file: "audio/07. 시간_속_데이터의_비밀__ARIMA부터_RNN,_LSTM,_GRU까지,_시계열_데이터_분석의_모든_것.mp3"
+    pub_date: "2026-07-18 13:24:00"
+
+  - title: "딥러닝_텐서플로_교과서-06"
+    description: "CNN, 세상을 보는 기계의 눈: LeNet-5부터 AlexNet, ResNet, U-Net까지 이미지 인식 기술"
+    audio_file: "audio/06. CNN,_세상을_보는_기계의_눈__LeNet-5부터_AlexNet,_ResNet,_U-Net까지_이미지_인식_기술.mp3"
+    pub_date: "2026-07-18 13:23:00"
+
+  - title: "딥러닝_텐서플로_교과서-05"
+    description: "CNN의_작동_원리부터_블랙박스_해부까지"
+    audio_file: "audio/05. CNN의_작동_원리부터_블랙박스_해부까지.mp3"
+    pub_date: "2026-07-18 13:22:00"
+
   - title: "딥러닝_텐서플로_교과서-04"
     description: "딥러닝 핵심 기초-퍼셉트론부터 최신 알고리즘까지, AI의 모든 것"
     audio_file: "audio/009.mp3"
@@ -14,7 +45,7 @@ episodes:
   - title: "딥러닝_텐서플로_교과서-03"
     description: "딥러닝_텐서플로_교과서-03"
     audio_file: "audio/008.mp3"
-    pub_date: "2025-09-16 21:06:32"
+    pub_date: "2025-09-16 21:06:32"  
 
   - title: "250415 공공부문 초거대 AI 도입·활용 가이드라인 2.0"
     description: "250415 공공부문 초거대 AI 도입·활용 가이드라인 2.0"
