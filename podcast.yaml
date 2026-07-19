@@ -7,6 +7,16 @@ channel_image: "https://your-podcast-website.com/images/cover.png"
 
 episodes: 
 
+  - title: "공공 AI 역량 - 03. 관리자 AI리더십"
+    description: "AI를 장식품 아닌 성과로 만드는 리더십"
+    audio_file: "audio/공공AI역량-03.AI를_장식품_아닌_성과로_만드는_리더십.mp3"
+    pub_date: "2026-07-20 00:00:03"
+
+  - title: "공공 AI 역량 - 01. AI리터러시와 업무활용"
+    description: "거짓말하는 AI 신입사원 제대로 부리는 법"
+    audio_file: "audio/공공AI역량-01.거짓말하는_AI_신입사원_제대로_부리는_법.mp3"
+    pub_date: "2026-07-20 00:00:01"
+
   - title: "딥러닝_텐서플로_교과서-10"
     description: "원핫인코딩부터 BERT까지 임베딩의 진화"
     audio_file: "audio/10. 원핫인코딩부터_BERT까지_임베딩의_진화.mp3"
