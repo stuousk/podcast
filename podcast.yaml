@@ -7,14 +7,29 @@ channel_image: "https://your-podcast-website.com/images/cover.png"
 
 episodes: 
 
-  - title: "공공 AI 역량 - 03. 관리자 AI리더십"
-    description: "AI를 장식품 아닌 성과로 만드는 리더십"
-    audio_file: "audio/공공AI역량-03.AI를_장식품_아닌_성과로_만드는_리더십.mp3"
+  - title: "공아역 - 05. 행정"
+    description: ""
+    audio_file: "audio/공아역-05.AI_기획의_진짜_무기는_사람의_결핍.mp3"
+    pub_date: "2026-07-20 00:00:05"
+
+  - title: "공아역 - 04. 노코드"
+    description: ""
+    audio_file: "audio/공아역-04.이제_AI로_데이터를_지휘하라.mp3"
+    pub_date: "2026-07-20 00:00:04"
+    
+  - title: "공아역 - 03. 관리자"
+    description: ""
+    audio_file: "audio/공아역-03.AI를_장식품_아닌_성과로_만드는_리더십.mp3"
     pub_date: "2026-07-20 00:00:03"
 
-  - title: "공공 AI 역량 - 01. AI리터러시와 업무활용"
-    description: "거짓말하는 AI 신입사원 제대로 부리는 법"
-    audio_file: "audio/공공AI역량-01.거짓말하는_AI_신입사원_제대로_부리는_법.mp3"
+  - title: "공아역 - 02. 데이터"
+    description: ""
+    audio_file: "audio/공아역-02.AI도_대신_못_하는_데이터_질문법.mp3"
+    pub_date: "2026-07-20 00:00:02"
+
+  - title: "공아역 - 01. 리터러시"
+    description: ""
+    audio_file: "audio/공아역-01.거짓말하는_AI_신입사원_제대로_부리는_법.mp3"
     pub_date: "2026-07-20 00:00:01"
 
   - title: "딥러닝_텐서플로_교과서-10"
