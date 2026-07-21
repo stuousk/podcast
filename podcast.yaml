@@ -7,6 +7,11 @@ channel_image: "https://your-podcast-website.com/images/cover.png"
 
 episodes: 
 
+  - title: "공아역 - 06. 노코드"
+    description: ""
+    audio_file: "audio/공아역-06.비싼_AI가_업무_자동화에_최악인_이유.mp3"
+    pub_date: "2026-07-20 00:00:06"
+
   - title: "공아역 - 05. 행정"
     description: ""
     audio_file: "audio/공아역-05.AI_기획의_진짜_무기는_사람의_결핍.mp3"
